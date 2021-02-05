@@ -1,18 +1,20 @@
 .header__hr {
-    width: 83%;
+    width: 80%;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    width: 80%;
     gap: 20px;
 }
 
 .description__text{
-    grid-column: 2 / span 6;
+    padding: 10px;
+    grid-column: 1 / span 8;
 }
 
 .description-pic {
     background-color: green;
-    grid-column: 8 / span 4;
+    grid-column: 9 / span 4;
 }
