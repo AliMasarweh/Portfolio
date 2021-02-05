@@ -43,7 +43,7 @@
 
 .header__social-meadia {
     display: flex;
-    width: 40%;
+    width: 42%;
     justify-content: space-evenly;
 }
 
@@ -57,12 +57,24 @@ a {
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
+    text-align: center;
+}
+
+.ele--w-18{
+    width: 180px;
 }
 
 .btn--bg-dark {
-    margin: 0.25rem 0.4rem;
     padding: 0.8rem 1rem;
     background-color: var(--dark-btn-color);
+}
+
+.element--hover-enlarge {
+    transition: all var(--btn-animation-speed) ease-in-out;
+}
+
+.element--hover-enlarge:hover {
+    transform: scale(1.2);
 }
 
 .fa {

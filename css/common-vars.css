@@ -11,4 +11,5 @@
     --hamburger-color: #303030;
     --overlay-color: rgba(33, 33, 33, 0.9);
     --menu-speed: 0.7s;
+    --btn-animation-speed: 0.7;
 }
