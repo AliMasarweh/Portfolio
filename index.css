@@ -102,11 +102,11 @@
     }
 
     .header__title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .header__remark {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 }
 
