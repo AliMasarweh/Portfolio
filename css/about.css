@@ -1,0 +1,18 @@
+.header__hr {
+    width: 83%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.description__text{
+    grid-column: 2 / span 6;
+}
+
+.description-pic {
+    background-color: green;
+    grid-column: 8 / span 4;
+}
