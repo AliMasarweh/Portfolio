@@ -1,6 +1,14 @@
 :root {
     --light-bg-color: #EEE;
     --font-color: #333;
+    --primary-color: rgba(51, 51, 51, 0.9);
+    --secondary-color: rgba(51, 51, 51, 0.7);
     --dark-btn-color: #2F2F2F;
     --light-font-color: #FCFCFC;
+    --primary-light-color: rgba(252, 252, 252, 0.7);
+    --secondary-light-color: rgba(252, 252, 252, 0.7);
+    --menu-color: #EEE;
+    --hamburger-color: #303030;
+    --overlay-color: rgba(33, 33, 33, 0.9);
+    --menu-speed: 0.7s;
 }
